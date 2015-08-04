@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMOTweb", "SMOTweb\SMOTweb.csproj", "{1FE755B9-4333-4C2A-A316-5B2F24FCCA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{1C06A051-F1C9-4A80-A15F-36BFC3899418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5B6A70AA-316E-4A50-B15E-022DE96193D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE755B9-4333-4C2A-A316-5B2F24FCCA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE755B9-4333-4C2A-A316-5B2F24FCCA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE755B9-4333-4C2A-A316-5B2F24FCCA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE755B9-4333-4C2A-A316-5B2F24FCCA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C06A051-F1C9-4A80-A15F-36BFC3899418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C06A051-F1C9-4A80-A15F-36BFC3899418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C06A051-F1C9-4A80-A15F-36BFC3899418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C06A051-F1C9-4A80-A15F-36BFC3899418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6A70AA-316E-4A50-B15E-022DE96193D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6A70AA-316E-4A50-B15E-022DE96193D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6A70AA-316E-4A50-B15E-022DE96193D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6A70AA-316E-4A50-B15E-022DE96193D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
