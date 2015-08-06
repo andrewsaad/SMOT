@@ -868,7 +868,7 @@
     <Content Include="js\sequence\slide-1.jpg" />
     <Content Include="js\sequence\slide-2.jpg" />
     <Content Include="js\sequence\slide-3.jpg" />
-    <Content Include="adminLap\Login.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Members.aspx" />
     <Content Include="nbproject\private\private %28kostya%27s conflicted copy 2014-04-17%29.xml" />
     <Content Include="nbproject\private\private %28kostya%27s conflicted copy 2014-05-09%29.xml" />
@@ -943,11 +943,11 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="adminLap\Login.aspx.cs">
+    <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="adminLap\Login.aspx.designer.cs">
+    <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage\MasterPage.Master.cs">

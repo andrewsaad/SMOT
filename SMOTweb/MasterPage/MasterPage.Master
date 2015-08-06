@@ -7,25 +7,25 @@
     <title></title>
     <!-- Google Web Fonts
 	================================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,700%7cCourgette%7cRaleway:400,700,500%7cCourgette%7cLato:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,700%7cCourgette%7cRaleway:400,700,500%7cCourgette%7cLato:700' rel='stylesheet' type='text/css'/>
 
     <!-- Basic Page Needs
 	================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
     <!-- Favicons
 	================================================== -->
-    <link rel="shortcut icon" href="../images/favicon.png">
-    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="../images/favicon.png"/>
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
 
     <!-- Mobile Specific Metas
 	================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
     <!-- CSS
 	================================================== -->
@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="../css/fontello.css" />
     <link rel="stylesheet" href="../css/animation.css" />
     <link href="../css/tooltipster.css" rel="stylesheet" />
-        <link rel="stylesheet" href="../js/owlcarousel/owl.carousel.css" />
+    <link rel="stylesheet" href="../js/owlcarousel/owl.carousel.css" />
     <link rel="stylesheet" href="../js/owlcarousel/owl.theme.css" />
     <link rel="stylesheet" href="../js/owlcarousel/owl.transitions.css" />
 
@@ -52,153 +52,90 @@
 <body class="animated loaded">
     <form id="form1" runat="server">
         <div id="wrapper">
-
             <div id="mobile-menu" class="mobile-menu">
-
                 <a href="#" id="menu-hide"></a>
-
             </div>
-
-           <header id="header">
-
-        <div class="top-header-line">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-xs-12">
-
-                        <div class="contact-icons clearfix">
-                            <ul class="contact-details">
-                                <li><i class="icon-location-2"></i>12 Street, Los Angeles, CA, 94101</li>
-                                <li><i class=" icon-mail-5"></i>E-mail: <a href="mailto:testmail@sitename.com">testmail@sitename.com</a></li>
-                                <li><i class="icon-phone-2"></i>+1 800 123 4567</li>
-                            </ul>	
+            <header id="header">
+                <div class="top-header-line">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="contact-icons clearfix">
+                                    <ul class="contact-details">
+                                        <li><i class="icon-location-2"></i>
+                                            <asp:Label ID="lblHeaderAddress" runat="server" Text=""></asp:Label></li>
+                                        <li><i class=" icon-mail-5"></i>
+                                            <a id="aHeaderEmail" runat="server" href="#"></a></li>
+                                        <li><i class="icon-phone-2"></i>
+                                            <asp:Label ID="lblHeaderPhone" runat="server" Text="Label"></asp:Label></li>
+                                        <li>
+                                            <asp:LoginStatus ID="LoginStatus1" LogoutText="Logout" CssClass="button turquoise" style="line-height:15px;padding-top:2px !important;padding-bottom:2px !important; margin:0px !important" LoginText="Login" runat="server" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
-
-                </div><!--/ .row-->
-
-            </div><!--/ .container-->
-
-        </div><!--/ .top-header-line-->
-
-        <div class="middle-header-line">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-xs-12">
-
-                        <div class="header-in">
-
-                            <div id="logo">
-								<a href="index.html"><img src="/images/SMOTLOGO/SMOT.png " width="150" height="30" alt="" /></a>
-							</div>
-							
-                            <div class="social-icons circle-icons">
-                                <ul>
-                                    <li class="twitter"><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
-                                    <li class="facebook"><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
-                                    <li class="linkedin"><a href="#"><i class="icon-linkedin"></i>LinkedIn</a></li>
-                                    <li class="pinterest"><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
-                                    <li class="rss"><a href="#"><i class="icon-rss"></i>Rss</a></li>								
-                                    <li class="flickr"><a href="#"><i class="icon-flickr-1"></i>Flickr</a></li>									
-                                </ul>
-                            </div><!--/ .social-icons-->
-
-                        </div><!--/ .header-in-->
-
-                    </div>
-
-                </div><!--/ .row-->
-
-            </div><!--/ .container-->	
-
-        </div><!--/ .middle-header-line-->
-
-        <div class="bottom-header-line">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-11 col-sm-11">	
-                        <a id="responsive-nav-button" class="responsive-nav-button" href="#"></a>
-                        <div class="nav-wrapper">
-
-                            <nav id="navigation" class="navigation">
-                                <ul>
-                                    <li  id="navIndex">
-                                        <a href="index.aspx">Home</a>
-
-                                    </li>
-                                    <li id="navEvents"><a href="Events.aspx" >Events</a></li>
-                                    <li id="navContactUs">
-                                        <a href="ContactUs.aspx">Contact Us</a>
-
-                                    </li>
-                                    <li id="navAboutUs">
-                                        <a href="AboutUs.aspx">About US</a>
-
-                                    </li>
-                                    <li id="navCareer">
-                                        <a href="Career.aspx">Join Us</a>
-
-                                    </li>
-                                    <li id="navlogin">
-                                       <a href="../adminLap/Login.aspx">Members Login</a>
+                </div>
+                <div class="middle-header-line">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="header-in">
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            <img src="/images/SMOTLOGO/SMOT.png " width="150" height="30" alt="" /></a>
+                                    </div>
+                                    <div class="social-icons circle-icons">
                                         <ul>
-                                            <li><a href="Members.aspx"></a></li>
-                                            <li><a href="Events.aspx"></a></li>
-                                            
-
-                                            
+                                            <li class="twitter"><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+                                            <li class="facebook"><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
+                                            <li class="linkedin"><a href="#"><i class="icon-linkedin"></i>LinkedIn</a></li>
+                                            <li class="pinterest"><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+                                            <li class="rss"><a href="#"><i class="icon-rss"></i>Rss</a></li>
+                                            <li class="flickr"><a href="#"><i class="icon-flickr-1"></i>Flickr</a></li>
                                         </ul>
-                                    </li>
-                                </ul>
-
-                            </nav><!--/ .navigation-->
-
-                        </div><!--/ .nav-wrapper-->
-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-md-1 col-sm-1">
-
-                        <div class="search-wrapper">
-
-                            <form method="post" action="/">
-
-                                <p>
-                                    <input name="s" id="s" type="text">
-                                    <a href="#" class="submit-search">Search</a>
-                                </p>
-
-                            </form>
-
-                        </div><!--/ .search-wrapper--> 
-
+                </div>
+                <div class="bottom-header-line">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-11 col-sm-11">
+                                <a id="responsive-nav-button" class="responsive-nav-button" href="#"></a>
+                                <div class="nav-wrapper">
+                                    <nav id="navigation" class="navigation">
+                                        <ul>
+                                            <li id="navIndex">
+                                                <a href="index.aspx">Home</a>
+                                            </li>
+                                            <li id="navEvents"><a href="Events.aspx">Events</a></li>
+                                            <li id="navContactUs">
+                                                <a href="ContactUs.aspx">Contact Us</a>
+                                            </li>
+                                            <li id="navAboutUs">
+                                                <a href="AboutUs.aspx">About US</a>
+                                            </li>
+                                            <li id="navCareer">
+                                                <a href="Career.aspx">Join Us</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                </div><!--/ .row-->
-
-            </div><!--/ .container-->
-
-        </div><!--/ bottom-header-line-->
-
-    </header>
-            <!--/ #header-->
+                </div>
+            </header>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 
-             <footer id="footer">
-
-<%--        <div class="entry-footer parallax parallax-bg-3">
+            <footer id="footer">
+                <%--        <div class="entry-footer parallax parallax-bg-3">
 
             <div class="full-bg-image"></div>
             <div class="overlay-paralax"></div>
@@ -220,8 +157,7 @@
 			</div><!--/ .container-->
 
 		</div><!--/ .entry-footer-->--%>
-
-<%--        <div class="clients-container">
+                <%--        <div class="clients-container">
 
             <section class="container">	
 
@@ -245,89 +181,58 @@
             </section><!--/ .container-->
 
         </div><!--/ .clients-container-->--%>
-
-        <div class="widget-area">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-4 col-sm-4">
-
-                        <div class="widget widget_text">
-
-                            <h3 class="widget-title">Get in touch</h3>
-
-                            <div class="textwidget">
-                                <p>34789 Magic City Avenue, Los Angeles, CA, 94048</p>
-                                <p>Call: 123 456 789</p>
-                                <p>E-mail: <a href="mailto:testmail@sitename.com">testmail@sitename.com</a></p>
+                <div class="widget-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4">
+                                <div class="widget widget_text">
+                                    <h3 class="widget-title">Get in touch</h3>
+                                    <div class="textwidget">
+                                        <p>
+                                            <asp:Label ID="lblFooterAddress" runat="server" Text=""></asp:Label></p>
+                                        <p>
+                                            <asp:Label ID="lblFooterPhone" runat="server" Text="Label"></asp:Label></p>
+                                        <p>
+                                            <asp:Label ID="lblFooterEmail" runat="server" Text="Label"></asp:Label>
+                                            <a href="#" id="aFooterEmail" runat="server"></a></p>
+                                    </div>
+                                </div>
                             </div>
-
-                        </div><!--/ .widget-->		
-
-                    </div>
-
-                    <div class="col-lg-4 col-sm-4">
-
-                        <ul class="social-icons circle-icons">
-                            <li class="twitter"><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
-                            <li class="facebook"><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
-                            <li class="linkedin"><a href="#"><i class="icon-linkedin"></i>LinkedIn</a></li>
-                            <li class="pinterest"><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
-                            <li class="rss"><a href="#"><i class="icon-rss"></i>Rss</a></li>								
-                            <li class="flickr"><a href="#"><i class="icon-flickr-1"></i>Flickr</a></li>									
-                        </ul><!--/ .social-icons-->
-
-                    </div>	
-
-                    <div class="col-lg-4 col-sm-4">
-
-                        <div class="widget widget_twitter">
-                            <h5>@twitter</h5>
-                            <div class="tweet"></div>
+                            <div class="col-lg-4 col-sm-4">
+                            </div>
+                            <div class="col-lg-4 col-sm-4">
+                                <ul class="social-icons circle-icons">
+                                    <li class="twitter"><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+                                    <li class="facebook"><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
+                                    <li class="linkedin"><a href="#"><i class="icon-linkedin"></i>LinkedIn</a></li>
+                                    <li class="pinterest"><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+                                    <li class="rss"><a href="#"><i class="icon-rss"></i>Rss</a></li>
+                                    <li class="flickr"><a href="#"><i class="icon-flickr-1"></i>Flickr</a></li>
+                                </ul>
+                            </div>
+<%--                            <div class="col-lg-4 col-sm-4">
+                                <div class="widget widget_twitter">
+                                    <h5>@twitter</h5>
+                                    <div class="tweet"></div>
+                                </div>
+                            </div>--%>
                         </div>
-
                     </div>
-
-                </div><!--/ .row-->
-
-            </div><!--/ .container-->
-
-        </div><!--/ .widget-area-->
-
-    </footer>
-            <!--/ #footer-->
-
-
-            <!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
-
-
-            <!-- - - - - - - - - - - - Bottom Footer - - - - - - - - - - - - -->
-
-
+                </div>
+            </footer>
             <div class="bottom-footer">
-
                 <div class="container">
-
                     <div class="row">
-
                         <div class="col-sm-6">
                             <div class="copyright">
-                                Copyright © 2015 Zen Landscapes . 
-						<a href="http://mtg-eg.com" target="_blank">Developed by MTG</a>
-                                . All rights reserved 						
+                                Copyright © 2015 SMOT |
+                                 All rights reserved 						
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
-                <!--/ .row-->
-
             </div>
-            <!--/ .container-->
+        </div>
     </form>
     <%--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>--%>
 
@@ -346,15 +251,13 @@
     </style>
 
     <script src="../js/plugins.js"></script>
-     <script src="../js/owlcarousel/owl.carousel.js"></script>
-    <script src="../twitter/jquery.tweet.js"></script>
+    <script src="../js/owlcarousel/owl.carousel.js"></script>
     <script src="../js/jquery.smoothscroll.js"></script>
     <script src="../js/imagesloaded.js"></script>
     <script src="../js/jquery.mixitup.js"></script>
     <script src="../js/jquery.resizegrid.js"></script>
     <script src="../js/config.js"></script>
     <script src="../js/custom.js"></script>
-
 </body>
 </html>
 

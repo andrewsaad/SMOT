@@ -11,7 +11,15 @@ namespace SMOTweb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                BLL.ContactDetails objData = new BLL.ContactDetails();
+                objData.LoadByPrimaryKey(1);
+                lblContactLocation.Text = objData.Location;
+                lblContactPhone.Text = objData.Telephone;
+                aContactEmail.InnerText = objData.Email;
+                aContactEmail.HRef = "mailto:" + objData.Email;
+            }
         }
     }
 }
