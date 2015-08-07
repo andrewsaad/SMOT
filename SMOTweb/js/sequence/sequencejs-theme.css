@@ -382,7 +382,7 @@ table {
 			margin: 0;
 		}
 
-		#sequence .sequence-canvas li .slide-title span { color: #ffd200; }
+		#sequence .sequence-canvas li .slide-title span { color: #e74c3c; }
 
 		.sequence-canvas li .slide-text {
 			font-size: 13px;
@@ -395,7 +395,7 @@ table {
 		.sequence-canvas li .btn-cta {
 			border: 2px solid #fff;
 			padding: 14px 23px;
-			color: #ffd200;
+			color: #e74c3c;
 			font-weight: 700;
 			font-family: "Roboto", sans-serif;
 			font-size: 15px;
@@ -408,9 +408,9 @@ table {
 
 		.sequence-canvas li .btn-cta:hover,
 		.ls-slide .btn-cta a:hover {
-			background-color: #ffd200;
+			background-color: #e74c3c;
 			color: #000;
-			border-color: #ffd200;
+			border-color: #e74c3c;
 		}
 		
 		.sequence-container { 

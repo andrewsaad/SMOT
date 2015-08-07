@@ -265,19 +265,19 @@ body {
 	h6 { font-size: 14px; }
 
 	::-moz-selection {
-		background-color: rgba(255, 210, 0, 0.99);
+		background-color: rgba(231, 76, 60,1.0);
 		color: #000;
 		text-shadow: none;
 	}
 	
 	::-webkit-selection {
-		background-color: rgba(255, 210, 0, 0.99);
+		background-color: rgba(231, 76, 60,1.0);
 		color: #000;
 		text-shadow: none;
 	}
 
 	::selection {
-		background-color: rgba(255, 210, 0, 0.99);
+		background-color: rgba(231, 76, 60,1.0);
 		color: #000;
 		text-shadow: none;
 	}
