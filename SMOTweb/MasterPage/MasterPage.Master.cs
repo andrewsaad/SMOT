@@ -27,6 +27,12 @@ namespace SMOTweb
                 lblFooterPhone.Text = objData.Telephone;
                 lblFooterEmail.Text = objData.Email;
                 aFooterEmail.HRef = "mailto:" + objData.Email;
+
+                if (Page.User.Identity.IsAuthenticated)
+                {
+                    lblLoginHi.Visible = true;
+                    lblLoginDash.Visible = true;
+                }
             }
         }
     }

@@ -51,6 +51,7 @@
 </head>
 <body class="animated loaded">
     <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <div id="wrapper">
             <div id="mobile-menu" class="mobile-menu">
                 <a href="#" id="menu-hide"></a>
@@ -69,6 +70,9 @@
                                         <li><i class="icon-phone-2"></i>
                                             <asp:Label ID="lblHeaderPhone" runat="server" Text="Label"></asp:Label></li>
                                         <li>
+                                            <asp:Label ID="lblLoginHi" runat="server" Visible="false" Text="Hi, "></asp:Label>
+                                            <asp:LoginName ID="LoginName1" runat="server" />
+                                            <asp:Label ID="lblLoginDash" runat="server" Visible="false" Text=" |"></asp:Label>
                                             <asp:LoginStatus ID="LoginStatus1" LogoutText="Logout" CssClass="button turquoise" Style="line-height: 15px; padding-top: 2px !important; padding-bottom: 2px !important; margin: 0px !important" LoginText="Login" runat="server" />
                                         </li>
                                     </ul>
@@ -132,7 +136,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a><i class="icon-user-3" style="color: white"></i> Manage Members</a>
+                                                <a href="../ManageMembers.aspx"><i class="icon-user-3" style="color: white"></i> Manage Members</a>
                                             </li>
                                         </ul>
                                     </nav>

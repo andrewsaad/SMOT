@@ -807,6 +807,14 @@
     <Content Include="adminLap\js\scripts.js" />
     <Content Include="adminLap\js\ui-nestable.js" />
     <Content Include="adminLap\js\ui-tree.js" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
     <Content Include="Career.aspx" />
     <Content Include="ContactUs.aspx" />
     <Content Include="css\animation.css" />
@@ -821,6 +829,7 @@
     <Content Include="images\apple-touch-icon-114x114.png" />
     <Content Include="images\apple-touch-icon-72x72.png" />
     <Content Include="images\apple-touch-icon.png" />
+    <Content Include="images\noImg.png" />
     <Content Include="images\clients\client-1.png" />
     <Content Include="images\clients\client-2.png" />
     <Content Include="images\clients\client-3.png" />
@@ -869,6 +878,7 @@
     <Content Include="js\sequence\slide-2.jpg" />
     <Content Include="js\sequence\slide-3.jpg" />
     <Content Include="Login.aspx" />
+    <Content Include="ManageMembers.aspx" />
     <Content Include="Members.aspx" />
     <Content Include="nbproject\private\private %28kostya%27s conflicted copy 2014-04-17%29.xml" />
     <Content Include="nbproject\private\private %28kostya%27s conflicted copy 2014-05-09%29.xml" />
@@ -949,6 +959,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageMembers.aspx.cs">
+      <DependentUpon>ManageMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageMembers.aspx.designer.cs">
+      <DependentUpon>ManageMembers.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -1222,6 +1239,12 @@
     <Content Include="adminLap\img\gallery\.DS_Store" />
     <Content Include="adminLap\js\.DS_Store" />
     <Content Include="adminLap\Admin.Master" />
+    <Content Include="bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1234,6 +1257,7 @@
     <Folder Include="images\classic-portfolio\" />
     <Folder Include="images\corporate-style-extended\" />
     <Folder Include="images\headers\" />
+    <Folder Include="UploadedFiles\Members\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
