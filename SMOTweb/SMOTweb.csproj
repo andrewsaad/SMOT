@@ -807,6 +807,7 @@
     <Content Include="adminLap\js\scripts.js" />
     <Content Include="adminLap\js\ui-nestable.js" />
     <Content Include="adminLap\js\ui-tree.js" />
+    <Content Include="bootstrap\css\bootstrap-custom.css" />
     <Content Include="bootstrap\css\bootstrap-theme.css" />
     <Content Include="bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="bootstrap\css\bootstrap.css" />
@@ -878,6 +879,7 @@
     <Content Include="js\sequence\slide-2.jpg" />
     <Content Include="js\sequence\slide-3.jpg" />
     <Content Include="Login.aspx" />
+    <Content Include="ManageEvents.aspx" />
     <Content Include="ManageMembers.aspx" />
     <Content Include="Members.aspx" />
     <Content Include="nbproject\private\private %28kostya%27s conflicted copy 2014-04-17%29.xml" />
@@ -959,6 +961,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageEvents.aspx.cs">
+      <DependentUpon>ManageEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageEvents.aspx.designer.cs">
+      <DependentUpon>ManageEvents.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageMembers.aspx.cs">
       <DependentUpon>ManageMembers.aspx</DependentUpon>
