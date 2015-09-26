@@ -4,12 +4,12 @@
     <link href="bootstrap/css/bootstrap-custom.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section class="section">
+    <section class="section" >
         <div class="container">
             <div class="row">
                 <asp:Panel ID="PanelGridView" runat="server">
                     <div style="color: #fff !important">
-                        <asp:LinkButton ID="btnAddMember" Style="margin-bottom: 15px" OnClick="btnAddMember_Click" CssClass="btn btn-success" runat="server"><i class="icon-plus" style="color:white"></i> Add New Member</asp:LinkButton>
+                        <asp:LinkButton ID="btnAddEvent" Style="margin-bottom: 15px" OnClick="btnAddEvent_Click" CssClass="btn btn-success" runat="server"><i class="icon-plus" style="color:white"></i> Add New Event</asp:LinkButton>
                         <asp:GridView ID="GridViewEvents" CssClass="table table-bordered" OnRowCommand="GridViewEvents_RowCommand" AllowPaging="true" OnPageIndexChanging="GridViewEvents_PageIndexChanging" EmptyDataText="No Events" AutoGenerateColumns="false" runat="server">
                             <Columns>
                                 <asp:BoundField HeaderText="Name" DataField="EventName" />
@@ -25,7 +25,7 @@
                         </asp:GridView>
                     </div>
                 </asp:Panel>
-                <asp:Panel ID="Panel1" runat="server"></asp:Panel>
+                <asp:Panel ID="PanelEditMember" runat="server"></asp:Panel>
             </div>
         </div>
     </section>

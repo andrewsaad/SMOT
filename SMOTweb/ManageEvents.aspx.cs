@@ -23,5 +23,10 @@ namespace SMOTweb
         {
 
         }
+
+        protected void btnAddEvent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
