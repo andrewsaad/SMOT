@@ -33,251 +33,36 @@
 
 				<div class="container">
 
-					<div class="row">
+					  <section id="Section1" class="page">
+            <section class="section padding-off">
+                
+                        <section id="portfolio-items" class="portfolio-items col-3">
+                            <asp:Repeater ID="AllEventsRepeter" runat="server" Visible="true">
+                                <ItemTemplate>
+                                    <article class="architecture mix mix_all">
+                                        <div class="work-item-move slideUp3x">
+                                            <img src='<%#Eval("MainImagePath") %>' alt="" style="height:275px;" />
+                                            <a href='<%# "Events.aspx?Pid=" + Eval("EventID") %>' class="doo">
+                                                
+                                                <div class="image-extra">
+                                                    <div class="extra-content">
+                                                        <h2 class="extra-title"><%# (Eval("EventName").ToString().Length <=15) ? Eval("EventName") : Eval("EventName").ToString().Substring(0, 12) + ".." %></h2>
+                                                    </div>
+                                                    <!--/ .extra-content-->
+                                                </div>
+                                            </a>
+                                            <!--/ .image-extra-->
+                                        </div>
+                                        
+                                        <!--/ .work-item-move-->
+                                    </article>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            </section>
 
-						<div class="col-xs-12">
-
-							<section id="portfolio-items" class="portfolio-items col-3">
-
-								<article class="architecture mix mix_all">
-
-									<div class="work-item lazy-image img">
-										<div class="lazy">
-											<i  class="G G_1"></i>
-											<i  class="G G_2"></i>
-											<i  class="G G_3"></i>
-											<i  class="G G_4"></i>
-											<i  class="G G_5"></i>
-											<i  class="G G_6"></i>
-											<i  class="G G_7"></i>
-											<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="single-full-width-slider.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Lorem ipsun</h2>
-													<h6 class="extra-descript">Architecture</h6>											
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->
-
-								</article>					
-
-								<article class="buildings mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                        <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="single-full-slider.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Night city</h2>
-													<h6 class="extra-descript">Buildings</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->						
-
-								</article>					
-
-								<article class="bridges mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                        <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="single-2-3-gallery.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Steel Structure Bridge</h2>
-													<h6 class="extra-descript">Bridges</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->	
-
-								</article>					
-
-								<article class="bridges mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                         <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="blog-single.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Millenium bridge</h2>
-													<h6 class="extra-descript">Bridges</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->	
-
-								</article>					
-
-								<article class="bridges mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                         <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="single-2-3-gallery.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Modern bridge</h2>
-													<h6 class="extra-descript">Bridges</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->	
-
-								</article>					
-
-								<article class="architecture mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                         <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="single-2-3-gallery.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Modern interior</h2>
-													<h6 class="extra-descript">Architecture</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->	
-
-								</article>					
-
-								<article class="buildings mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                         <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="blog-single.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Bridge 1</h2>
-													<h6 class="extra-descript">Buildings</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->	
-
-								</article>					
-
-								<article class="bridges mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                        <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="single-2-3-gallery.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">Modern office</h2>
-													<h6 class="extra-descript">Bridges</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->	
-
-								</article>					
-
-								<article class="bridges mix mix_all">
-
-									<div class="work-item lazy-image img">
-                                        <div class="lazy">
-												<i  class="G G_1"></i>
-												<i  class="G G_2"></i>
-												<i  class="G G_3"></i>
-												<i  class="G G_4"></i>
-												<i  class="G G_5"></i>
-												<i  class="G G_6"></i>
-												<i  class="G G_7"></i>
-												<i  class="G G_8"></i>
-										</div>
-										<img src="http://placehold.it/840x615" alt="" />
-										<a href="single-full-slider.html">
-											<div class="image-extra">
-												<div class="extra-content">
-													<h2 class="extra-title">London</h2>
-													<h6 class="extra-descript">Bridges</h6>
-												</div><!--/ .extra-content-->
-											</div><!--/ .image-extra-->
-										</a>
-									</div><!--/ .work-item-->	
-
-								</article>					
-
-							</section><!--/ .portfolio-items-->
-
-						</div>
-
-					</div><!--/ .row-->
+                </section>
+        
+            </section>
 
 				</div><!--/ .container-->
 

@@ -130,7 +130,10 @@
                                                 <a><i class="icon-cog-3" style="color: white"></i> Manage Pages</a>
                                                 <ul>
                                                     <li><a><i class="icon-home" style="color: white"></i>  Home</a></li>
-                                                    <li><a><i class="icon-picture" style="color: white"></i>  Events</a></li>
+                                                    <li>
+                                                        <a href="../ManageEvents.aspx"><i class="icon-picture" style="color: white"></i>  Events</a>
+
+                                                    </li>
                                                     <li><a><i class="icon-phone" style="color: white"></i>  Contact Information</a></li>
                                                     <li><a><i class="icon-info" style="color: white"></i>  About Us</a></li>
                                                 </ul>
