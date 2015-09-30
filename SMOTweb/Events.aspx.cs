@@ -12,6 +12,7 @@ namespace SMOTweb
         protected void Page_Load(object sender, EventArgs e)
         {
             RepeterBind();
+           
         }
         protected void RepeterBind()
         {
@@ -19,6 +20,27 @@ namespace SMOTweb
             E.LoadAll();
             AllEventsRepeter.DataSource = E.DefaultView;
             AllEventsRepeter.DataBind();
+        }
+        protected void EventsDetailsRepeterbind()
+        {
+            Event E = new Event();
+            E.LoadByPrimaryKey(EventID);
+            EventsDetailsRepeter.DataSource = E.DefaultView;
+            EventsDetailsRepeter.DataBind();
+        }
+        public int EventID
+        {
+            get
+            {
+                if (!string.IsNullOrWhiteSpace(Request.QueryString["Eid"]))
+                {
+                    return int.Parse(Request.QueryString["Eid"].ToString());
+                }
+                else
+                {
+                    return 0;
+                }
+            }
         }
     }
 }

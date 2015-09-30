@@ -280,6 +280,8 @@
     <script src="../js/jquery.resizegrid.js"></script>
     <script src="../js/config.js"></script>
     <script src="../js/custom.js"></script>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderScripts" runat="server">
+    </asp:ContentPlaceHolder>
 </body>
 </html>
 
