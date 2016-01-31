@@ -13,6 +13,24 @@ namespace SMOTweb {
     public partial class ContactUs {
         
         /// <summary>
+        /// lblPageTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPageTitle;
+        
+        /// <summary>
+        /// litContactUs control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litContactUs;
+        
+        /// <summary>
         /// lblContactLocation control.
         /// </summary>
         /// <remarks>

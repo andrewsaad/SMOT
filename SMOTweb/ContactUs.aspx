@@ -13,7 +13,9 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="section-title opacity">
-                        <h3>Let's get in touch</h3>
+                        <h3>
+                            <asp:Label ID="lblPageTitle" runat="server" Text=""></asp:Label>
+                        </h3>
                         <h4>some information about us</h4>
                     </div>
                 </div>
@@ -24,8 +26,7 @@
                 <div class="col-md-6">
                     <div class="contact-widget opacity">
                         <p class="contact-info">
-                            Feel free to be in reach us via this contact form and our customer care representatives will get back to you with the closest convenience.
-						
+                            <asp:Literal ID="litContactUs" runat="server"></asp:Literal>						
                         </p>
                         <h4>Contact details
 							</h4>

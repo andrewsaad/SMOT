@@ -19,6 +19,11 @@ namespace SMOTweb
                 lblContactPhone.Text = objData.Telephone;
                 aContactEmail.InnerText = objData.Email;
                 aContactEmail.HRef = "mailto:" + objData.Email;
+
+                BLL.PageContent objPC = new BLL.PageContent();
+                objPC.LoadByPrimaryKey(1);
+                litContactUs.Text = objPC.PlaceHolder1;
+                lblPageTitle.Text = objPC.PageTitle;
             }
         }
     }

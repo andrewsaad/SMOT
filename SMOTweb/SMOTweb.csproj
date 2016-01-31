@@ -1266,6 +1266,7 @@
     <Folder Include="images\classic-portfolio\" />
     <Folder Include="images\corporate-style-extended\" />
     <Folder Include="images\headers\" />
+    <Folder Include="UploadedFiles\Events\" />
     <Folder Include="UploadedFiles\Members\" />
   </ItemGroup>
   <ItemGroup>
