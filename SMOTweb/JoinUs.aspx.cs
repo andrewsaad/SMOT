@@ -11,7 +11,13 @@ namespace SMOTweb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                BLL.PageContent objData = new BLL.PageContent();
+                objData.LoadByPrimaryKey(3);
+                lblPageTitle.Text = objData.PageTitle;
+                litJoinUs.Text = objData.PlaceHolder1;
+            }
         }
     }
 }

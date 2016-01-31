@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/MasterPage.Master" AutoEventWireup="true" CodeBehind="Career.aspx.cs" Inherits="SMOTweb.Career" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/MasterPage.Master" AutoEventWireup="true" CodeBehind="JoinUs.aspx.cs" Inherits="SMOTweb.Career" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
         $(document).ready(function () {
@@ -14,15 +14,19 @@
                 <div class="col-xs-12">
 
                     <div class="section-title opacity">
-                        <h3>Apply To Join Us</h3>
-                        <h4></h4>
+                        <h3>
+                            <asp:Label ID="lblPageTitle" runat="server" Text=""></asp:Label>
+                        </h3>
+                        <h4>Join Our Team</h4>
                     </div>
 
                 </div>
                 <!--/ .col-xs-12-->
 
                 <div class="row">
-                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <asp:Literal ID="litJoinUs" runat="server"></asp:Literal>
+                    </div>
                     <div class="col-md-6">
 
                         <div class="contact-respond opacity">
@@ -62,7 +66,6 @@
                         <!--/ .contact-respond-->
 
                     </div>
-                    <div class="col-md-3"></div>
                 </div>
             </div>
         </section>

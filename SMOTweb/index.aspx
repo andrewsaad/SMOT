@@ -52,39 +52,29 @@
                 <div class="container">
                     <div class="row">
                         <div class="header-in">
-                            <img alt="" src="images/SMOTLOGO/SMOT.png" width="200" height="30" id="logo" /></a>
-						<a id="responsive-nav-button" class="responsive-nav-button" href="#"></a>
+                            <img alt="" src="images/SMOTLOGO/SMOT.png" width="200" height="30" id="logo" />
+                            <a id="responsive-nav-button" class="responsive-nav-button" href="#"></a>
                             <div class="nav-wrapper">
                                 <nav id="navigation" class="navigation">
                                     <ul>
                                         <li class="current-menu-item">
                                             <a href="index.aspx">Home</a>
                                         </li>
+                                        <li>
+                                            <a href="Services.aspx">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="AboutUs.aspx">About Us</a>
+                                        </li>
                                         <li><a href="Events.aspx">Events</a></li>
+                                        <li>
+                                            <a href="JoinUs.aspx">Join Us</a>
+                                        </li>
                                         <li>
                                             <a href="ContactUs.aspx">Contact Us</a>
                                         </li>
                                         <li>
-                                            <a href="AboutUs.aspx">About US</a>
-                                        </li>
-                                        <li>
-                                            <a href="Career.aspx">Join Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="../adminLap/Login.aspx">Members Login</a>
-                                            <ul>
-                                                <li><a href="Members.aspx"></a></li>
-                                                <li><a href="Events.aspx"></a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="shortcodes.html">ELEMENTS</a>
-                                            <ul>
-                                                <li><a href="shortcodes.html">Shortcodes</a></li>
-                                                <li><a href="typography.html">Typography</a></li>
-                                                <li><a href="font-icons.html">Font Icons</a></li>
-                                                <li><a href="column-layout.html">Columns</a></li>
-                                            </ul>
+                                            <a href="Login.aspx">Members Login</a>
                                         </li>
                                     </ul>
                                 </nav>

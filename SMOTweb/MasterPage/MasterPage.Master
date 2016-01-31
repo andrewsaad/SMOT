@@ -92,9 +92,9 @@
                                     </div>
                                     <div class="social-icons circle-icons">
                                         <ul>
-                                            
+
                                             <li class="facebook"><a href="#" runat="server" id="FacebookHeader12"><i class="icon-facebook"></i>Facebook</a></li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -113,31 +113,36 @@
                                             <li id="navIndex">
                                                 <a href="index.aspx">Home</a>
                                             </li>
-                                            <li id="navEvents"><a href="Events.aspx">Events</a></li>
-                                            <li id="navContactUs">
-                                                <a href="ContactUs.aspx">Contact Us</a>
+                                            <li id="navServices">
+                                                <a href="Services.aspx">Services</a>
                                             </li>
                                             <li id="navAboutUs">
                                                 <a href="AboutUs.aspx">About US</a>
                                             </li>
+                                            <li id="navEvents">
+                                                <a href="Events.aspx">Events</a>
+                                            </li>
                                             <li id="navCareer">
-                                                <a href="Career.aspx">Join Us</a>
+                                                <a href="JoinUs.aspx">Join Us</a>
+                                            </li>
+                                            <li id="navContactUs">
+                                                <a href="ContactUs.aspx">Contact Us</a>
                                             </li>
                                             <li>
-                                                <a><i class="icon-cog-3" style="color: white"></i> Manage Pages</a>
+                                                <a><i class="icon-cog-3" style="color: white"></i>Manage Pages</a>
                                                 <ul>
-                                                    <li><a><i class="icon-home" style="color: white"></i>  Home</a></li>
+                                                    <li><a><i class="icon-home" style="color: white"></i>Home</a></li>
                                                     <li>
-                                                        <a href="../ManageEvents.aspx"><i class="icon-picture" style="color: white"></i>  Events</a>
+                                                        <a href="../ManageEvents.aspx"><i class="icon-picture" style="color: white"></i>Events</a>
 
                                                     </li>
-                                                    <li><a><i class="icon-info" style="color: white"></i>  Join Us</a></li>
-                                                    <li><a href="../ManageContactInformation.aspx"><i class="icon-phone" style="color: white"></i>  Contact Information</a></li>
-                                                    <li><a><i class="icon-info" style="color: white"></i>  About Us</a></li>
+                                                    <li><a><i class="icon-info" style="color: white"></i>Join Us</a></li>
+                                                    <li><a href="../ManageContactInformation.aspx"><i class="icon-phone" style="color: white"></i>Contact Information</a></li>
+                                                    <li><a><i class="icon-info" style="color: white"></i>About Us</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="../ManageMembers.aspx"><i class="icon-user-3" style="color: white"></i> Manage Members</a>
+                                                <a href="../ManageMembers.aspx"><i class="icon-user-3" style="color: white"></i>Manage Members</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -152,52 +157,6 @@
             </asp:ContentPlaceHolder>
 
             <footer id="footer">
-                <%--        <div class="entry-footer parallax parallax-bg-3">
-
-            <div class="full-bg-image"></div>
-            <div class="overlay-paralax"></div>
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-xs-12">
-
-						<div class="offers">
-							<h1>precise project planning, modern design and satisfying results!</h1>
-						</div>
-
-					</div>
-
-				</div><!--/ .row-->
-
-			</div><!--/ .container-->
-
-		</div><!--/ .entry-footer-->--%>
-                <%--        <div class="clients-container">
-
-            <section class="container">	
-
-                <div class="row">
-
-                    <div class="col-xs-12">	
-
-                        <ul class="client-items">
-                            <li><a href="http://themeforest.net/item/blessing-premium-responsive-wordpress-theme/3582013?WT.ac=portfolio_thumb%7cCourgette%7cWT.seg_1=portfolio_thumb%7cCourgette%7cWT.z_author=ThemeMakers"><img alt="" src="images/clients/client-1.png"></a></li>
-                            <li><a href="http://themeforest.net/user/ThemeMakers"><img alt="" src="images/clients/client-2.png"></a></li>
-                            <li><a href="http://themeforest.net/item/almera-responsive-portfolio-wordpress-theme/5350075?WT.ac=portfolio_thumb%7cCourgette%7cWT.seg_1=portfolio_thumb%7cCourgette%7cWT.z_author=ThemeMakers"><img alt="" src="images/clients/client-3.png"></a></li>
-                            <li><a href="http://themeforest.net/item/goodnex-responsive-html5css3-site-template/5147198?WT.ac=portfolio_thumb%7cCourgette%7cWT.seg_1=portfolio_thumb%7cCourgette%7cWT.z_author=ThemeMakers"><img alt="" src="images/clients/client-4.png"></a></li>
-                            <li><a href="http://themeforest.net/item/smartit-premium-responsive-wordpress-theme/3271328?WT.ac=portfolio_thumb%7cCourgette%7cWT.seg_1=portfolio_thumb%7cCourgette%7cWT.z_author=ThemeMakers"><img alt="" src="images/clients/client-5.png"></a></li>
-                            <li><a href="http://themeforest.net/item/axioma-premium-responsive-wordpress-theme/5698562?WT.ac=portfolio_thumb%7cCourgette%7cWT.seg_1=portfolio_thumb%7cCourgette%7cWT.z_author=ThemeMakers"><img alt="" src="images/clients/client-6.png"></a></li>
-                        </ul>
-
-                    </div>
-					
-                </div><!--/ .row-->
-
-            </section><!--/ .container-->
-
-        </div><!--/ .clients-container-->--%>
                 <div class="widget-area">
                     <div class="container">
                         <div class="row">
@@ -222,17 +181,11 @@
                             </div>
                             <div class="col-lg-4 col-sm-4">
                                 <ul class="social-icons circle-icons">
-                                    
-                                    <li class="facebook"><a href="#" ><i class="icon-facebook"></i>Facebook</a></li>
-                                    
+
+                                    <li class="facebook"><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
+
                                 </ul>
                             </div>
-                            <%--                            <div class="col-lg-4 col-sm-4">
-                                <div class="widget widget_twitter">
-                                    <h5>@twitter</h5>
-                                    <div class="tweet"></div>
-                                </div>
-                            </div>--%>
                         </div>
                     </div>
                 </div>

@@ -20,8 +20,8 @@ namespace SMOTweb
                 txtMail.Text = objdata.Email;
                 txtTelephone.Text = objdata.Telephone;
             }
-           
-            
+
+
         }
 
         protected void btnSaveInfo_Click(object sender, EventArgs e)
@@ -32,6 +32,8 @@ namespace SMOTweb
             objdata.Email = txtMail.Text;
             objdata.Location = txtLocation.Text;
             objdata.Facebook = txtFacebook.Text;
+
+
             objdata.Save();
             Response.Redirect("ManageContactInformation.aspx");
         }
