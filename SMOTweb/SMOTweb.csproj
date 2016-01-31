@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -879,6 +880,7 @@
     <Content Include="js\sequence\slide-2.jpg" />
     <Content Include="js\sequence\slide-3.jpg" />
     <Content Include="Login.aspx" />
+    <Content Include="ManageContactInformation.aspx" />
     <Content Include="ManageEvents.aspx" />
     <Content Include="ManageMembers.aspx" />
     <Content Include="Members.aspx" />
@@ -896,7 +898,9 @@
     <Content Include="page\page.html" />
     <Content Include="page\page2.html" />
     <Content Include="php\1.png" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutUs.aspx.cs">
@@ -961,6 +965,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageContactInformation.aspx.cs">
+      <DependentUpon>ManageContactInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageContactInformation.aspx.designer.cs">
+      <DependentUpon>ManageContactInformation.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageEvents.aspx.cs">
       <DependentUpon>ManageEvents.aspx</DependentUpon>
@@ -1290,16 +1301,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:62878/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

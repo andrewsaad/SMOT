@@ -92,12 +92,9 @@
                                     </div>
                                     <div class="social-icons circle-icons">
                                         <ul>
-                                            <li class="twitter"><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
-                                            <li class="facebook"><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
-                                            <li class="linkedin"><a href="#"><i class="icon-linkedin"></i>LinkedIn</a></li>
-                                            <li class="pinterest"><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
-                                            <li class="rss"><a href="#"><i class="icon-rss"></i>Rss</a></li>
-                                            <li class="flickr"><a href="#"><i class="icon-flickr-1"></i>Flickr</a></li>
+                                            
+                                            <li class="facebook"><a href="#" runat="server" id="FacebookHeader12"><i class="icon-facebook"></i>Facebook</a></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -134,7 +131,8 @@
                                                         <a href="../ManageEvents.aspx"><i class="icon-picture" style="color: white"></i>  Events</a>
 
                                                     </li>
-                                                    <li><a><i class="icon-phone" style="color: white"></i>  Contact Information</a></li>
+                                                    <li><a><i class="icon-info" style="color: white"></i>  Join Us</a></li>
+                                                    <li><a href="../ManageContactInformation.aspx"><i class="icon-phone" style="color: white"></i>  Contact Information</a></li>
                                                     <li><a><i class="icon-info" style="color: white"></i>  About Us</a></li>
                                                 </ul>
                                             </li>
@@ -224,12 +222,9 @@
                             </div>
                             <div class="col-lg-4 col-sm-4">
                                 <ul class="social-icons circle-icons">
-                                    <li class="twitter"><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
-                                    <li class="facebook"><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
-                                    <li class="linkedin"><a href="#"><i class="icon-linkedin"></i>LinkedIn</a></li>
-                                    <li class="pinterest"><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
-                                    <li class="rss"><a href="#"><i class="icon-rss"></i>Rss</a></li>
-                                    <li class="flickr"><a href="#"><i class="icon-flickr-1"></i>Flickr</a></li>
+                                    
+                                    <li class="facebook"><a href="#" ><i class="icon-facebook"></i>Facebook</a></li>
+                                    
                                 </ul>
                             </div>
                             <%--                            <div class="col-lg-4 col-sm-4">

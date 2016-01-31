@@ -19,6 +19,7 @@ namespace SMOTweb
                 //Header
                 lblHeaderAddress.Text = objData.Location;
                 lblHeaderPhone.Text = objData.Telephone;
+                //FacebookHeader.InnerText = objData.Facebook;
                 aHeaderEmail.InnerText= objData.Email;
                 aHeaderEmail.HRef = "mailto:" + objData.Email;
 
@@ -26,6 +27,7 @@ namespace SMOTweb
                 lblFooterAddress.Text = objData.Location;
                 lblFooterPhone.Text = objData.Telephone;
                 lblFooterEmail.Text = objData.Email;
+                //FacebookFooter.InnerText = objData.Facebook;
                 aFooterEmail.HRef = "mailto:" + objData.Email;
 
                 if (Page.User.Identity.IsAuthenticated)
