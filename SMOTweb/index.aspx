@@ -91,7 +91,7 @@
                     <span class="sequence-next">Next</span>
                     <ul class="sequence-canvas">
                         <li class="slide-1 bg-animation">
-                            <div class="slide-bg content-animation" style="background-image: url(images/SMOTLOGO/SMOT_Logo.png);"></div>
+                            <div class="slide-bg content-animation" style="background-image: url(images/SMOTLOGO/3.jpg);"></div>
                             <div class="overlay-paralax content-animation"></div>
                             <div class="sequence-container content-animation">
                                 <div class="sequence-entry">
@@ -108,7 +108,7 @@
                             </div>
                         </li>
                         <li class="slide-2 bg-animation">
-                            <div class="slide-bg content-animation" style="background-image: url(images/SMOTLOGO/10437656_940722235940851_8345780775475319786_n.jpg);"></div>
+                            <div class="slide-bg content-animation" style="background-image: url(images/SMOTLOGO/2.jpg);"></div>
                             <div class="overlay-paralax content-animation"></div>
                             <div class="sequence-container content-animation">
                                 <div class="sequence-entry">
@@ -125,7 +125,7 @@
                             </div>
                         </li>
                         <li class="slide-3 bg-animation">
-                            <div class="slide-bg content-animation" style="background-image: url(images/SMOTLOGO/14691_944719902207751_8338260368826452388_n.jpg);"></div>
+                            <div class="slide-bg content-animation" style="background-image: url(images/SMOTLOGO/1.jpg);"></div>
                             <div class="overlay-paralax content-animation"></div>
                             <div class="sequence-container content-animation">
                                 <div class="sequence-entry">

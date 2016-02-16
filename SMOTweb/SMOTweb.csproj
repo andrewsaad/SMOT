@@ -1218,6 +1218,7 @@
     <Content Include="ManageContactInformation.aspx" />
     <Content Include="ManageEvents.aspx" />
     <Content Include="ManageMembers.aspx" />
+    <Content Include="ManagePage.aspx" />
     <Content Include="Members.aspx" />
     <Content Include="nbproject\private\private %28kostya%27s conflicted copy 2014-04-17%29.xml" />
     <Content Include="nbproject\private\private %28kostya%27s conflicted copy 2014-05-09%29.xml" />
@@ -1322,6 +1323,13 @@
     </Compile>
     <Compile Include="ManageMembers.aspx.designer.cs">
       <DependentUpon>ManageMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePage.aspx.cs">
+      <DependentUpon>ManagePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagePage.aspx.designer.cs">
+      <DependentUpon>ManagePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

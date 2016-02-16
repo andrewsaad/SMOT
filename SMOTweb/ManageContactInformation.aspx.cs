@@ -32,9 +32,13 @@ namespace SMOTweb
             objdata.Email = txtMail.Text;
             objdata.Location = txtLocation.Text;
             objdata.Facebook = txtFacebook.Text;
-
-
             objdata.Save();
+
+            ClientScript.RegisterStartupScript(this.GetType(), "getCKEditor", "$(#hfPageContect).val() = $('#txtPageContent').ckeditorGet();");
+            BLL.PageContent objPC = new PageContent();
+            objPC.LoadByPrimaryKey(1);
+            objPC.PlaceHolder1 = hfPageContect.Value;
+            objPC.Save();
             Response.Redirect("ManageContactInformation.aspx");
         }
     }
